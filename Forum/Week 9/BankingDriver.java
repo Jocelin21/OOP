@@ -66,10 +66,10 @@ public class BankingDriver {
                                 
                                 if(with > 0){ 
                                     account.withdraw(with);
-                                    System.out.println("Deposit Successful");
+                                    System.out.println("Withdraw Successful");
                                     System.out.println("Current Balance is " + account.getBalance());
                                 }else{
-                                    System.out.println("Deposit Denied!");
+                                    System.out.println("Withdraw Denied!");
                                     System.out.println("Current Balance is " + account.getBalance());
                                 }
                                 break;
