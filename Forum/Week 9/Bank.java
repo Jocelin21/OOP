@@ -10,7 +10,7 @@ public class Bank {
 
     public addCustomer(String f, String l){
         customers[numberOfCustomers] = new Customer(f, l);
-        numberOfCustomers += 1;
+        this.numberOfCustomers += 1;
     }
 
     public int getNumOfCustomers(){
